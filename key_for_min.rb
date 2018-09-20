@@ -20,5 +20,5 @@ def key_for_min_value(name_hash)
   end
 end
 
-# declare variables for storage OUTSIDE of the block 
-# to return one unit 
+# declare variables for storage OUTSIDE of the (do/end)  block 
+# There has to be a conditional in the iteration to make up for not using '.sort'. A variable given no value with 
