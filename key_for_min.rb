@@ -21,4 +21,6 @@ def key_for_min_value(name_hash)
 end
 
 # declare variables for storage OUTSIDE of the (do/end)  block 
-# There has to be a conditional in the iteration to make up for not using '.sort'. A variable given no value with 
+# The variable for storage can't have an integer value because that integer could be equal to the value in the actual hash -- so it has to be nil. 
+# There has to be a conditional in the iteration to make up for not using '.sort'. 
+# Keep in mind that if the hash is being iterated over, there will be multiple evaluations of the hash according to what you place in the block
