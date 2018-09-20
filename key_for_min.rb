@@ -20,4 +20,5 @@ def key_for_min_value(name_hash)
   end
 end
 
-# 
+# declare variables for storage OUTSIDE of the block 
+# to return one unit 
