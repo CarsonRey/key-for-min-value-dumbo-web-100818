@@ -7,7 +7,7 @@ def key_for_min_value(name_hash)
   else
     smallval = nil 
     smallkey = nil 
-    name_hash.select do |key, val|
+    name_hash.collect do |key, val|
       if smallval == nil
        smallval = val
        smallkey = key
@@ -19,3 +19,5 @@ def key_for_min_value(name_hash)
     smallkey
   end
 end
+
+# 
